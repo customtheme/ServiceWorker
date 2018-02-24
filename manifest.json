@@ -1,0 +1,13 @@
+{
+  "name": "Onetotech News Techno",
+  "short_name": "Onetotech",
+  "start_url": "index.php",
+  "display": "standalone",
+  "icons": [{
+    "src": "img/logo.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "background_color": "#01aa0f",
+  "theme_color": "#FFFFFF"
+}

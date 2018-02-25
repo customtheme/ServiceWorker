@@ -1,13 +1,13 @@
 {
-  "name": "Onetotech News Techno",
-  "short_name": "Onetotech",
-  "start_url": "index.php",
+  "name": "Potret Viral News",
+  "short_name": "PV",
+  "start_url": "https/potreterviral.blogspot.com",
   "display": "standalone",
   "icons": [{
-    "src": "img/logo.png",
+    "src": "https://lh3.googleusercontent.com/-J8pRHVkE2J4/WpKXjdYi_HI/AAAAAAAABKI/jqq9dK2s_goKiZxa_6M21VWAy_7ieZafQCEwYBhgL/potret-viral.png",
     "sizes": "512x512",
     "type": "image/png"
   }],
-  "background_color": "#01aa0f",
+  "background_color": "#009933",
   "theme_color": "#FFFFFF"
 }

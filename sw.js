@@ -1,11 +1,9 @@
 importScripts('/cache-polyfill.js');
 self.addEventListener('install', function(e) {
 e.waitUntil(
-caches.open('onetotech').then(function(cache) {
+caches.open('potretviral').then(function(cache) {
 return cache.addAll([
-'/',
-'/cache/css/style.css',
-'/cache/js/app.js',
+'/'
 ]);
 })
 );

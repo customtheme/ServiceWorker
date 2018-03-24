@@ -1,6 +1,6 @@
 {
-  "name": "Potret Viral News",
-  "short_name": "PV",
+  "name": "Wordpress Service Worker",
+  "short_name": "WSW",
   "start_url": "/",
   "display": "standalone",
   "icons": [{

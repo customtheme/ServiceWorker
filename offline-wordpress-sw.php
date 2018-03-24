@@ -51,6 +51,19 @@ function sw_offline_copy_sw(){
 }
 add_action('activated_plugin', 'sw_offline_copy_sw');
 
+function copy_manifest_json_file(){
+	$path = get_home_path();
+	$mn = plugin_dir_path( __FILE__ ).'manifest.json';
+	copy($mn, $path . 'manifest.json');
+}
+add_action('activated_plugin', 'copy_manifest_json_file');
+
+// Creates the link tag
+function inc_manifest_link() {   
+        echo '<link rel="manifest" href="/manifest.json">';
+}
+add_action( 'wp_head', 'inc_manifest_link' );
+
 /**
  * Change page template for offline-fallback page.
  *

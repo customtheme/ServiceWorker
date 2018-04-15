@@ -1,10 +1,11 @@
 {
   "name": "Wordpress Service Worker",
   "short_name": "WSW",
+  "description": "This is Wordpress Service Worker by Onetotech.Com",
   "start_url": "/",
   "display": "standalone",
   "icons": [{
-    "src": "https://lh3.googleusercontent.com/-J8pRHVkE2J4/WpKXjdYi_HI/AAAAAAAABKI/jqq9dK2s_goKiZxa_6M21VWAy_7ieZafQCEwYBhgL/potret-viral.png",
+    "src": "https://lh5.googleusercontent.com/proxy/ixENLIM1Pp47btqxQI8Rw_L-WWHkqiIO5PqvOMxZfxjThfW549Qvz6SireG4qOMfZAlctjJh25C4mmA69KZCySVts4eqT_eiVQkkOv4FVvpi9TnYbDMQkqMv_qZtspe7VEtKhOvm0Pi4q1rQBJgOJhNB0RtCfszxQ--FXJd258i-JIVJJg=w240-h240-nc",
     "sizes": "512x512",
     "type": "image/png"
   }],

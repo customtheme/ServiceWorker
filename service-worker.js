@@ -1,7 +1,7 @@
 var cacheName = 'offline-fallback-cache-__VERSION__';
 
 var requiredCacheFiles = [
-  '/offline-fallback'
+  '/p/offline-fallback.html'
 ];
 
 self.addEventListener('install', function(event){
@@ -33,7 +33,7 @@ self.addEventListener('fetch', function(event) {
     event.respondWith(
       fetch(event.request).catch(function(error) {
         console.log('Fetch failed; returning offline page instead.', error);
-        return caches.match('/offline-fallback');
+        return caches.match('/p/offline-fallback');
       })
     );
   }

@@ -1,7 +1,7 @@
 var cacheName = 'offline-fallback-cache-__VERSION__';
 
 var requiredCacheFiles = [
-  '/p/offlinefallback.html'
+ location.origin + '/p/offlinefallback.html'
 ];
 
 self.addEventListener('install', function(event){

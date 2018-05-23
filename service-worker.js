@@ -33,7 +33,7 @@ self.addEventListener('fetch', function(event) {
     event.respondWith(
       fetch(event.request).catch(function(error) {
         console.log('Fetch failed; returning offline page instead.', error);
-        return caches.match('/p/offline-fallback');
+        return caches.match('/p/offlinefallback');
       })
     );
   }
